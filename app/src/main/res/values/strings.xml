@@ -1,3 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Ass3</string>
+    <string name="app_logo_label">Team H</string>
+    <string name="button_1">Button</string>
+    <string name="button_2">Button</string>
+    <string name="button_3">Button</string>
+    <string name="button_4">Button</string>
+    <string name="bottom_label">Lab 3 team profile assignment for COMP2160</string>
 </resources>
