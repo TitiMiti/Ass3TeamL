@@ -14,3 +14,15 @@
 #### APK version : 30
 
 ### Screenshots
+   
+   - Main Activity
+   
+   - Person 1 Page
+   
+   - Eugene's Page
+   
+   - Carlos' Page
+   
+   - Zhuldyz's Page
+   
+   - Alex's Page
