@@ -5,7 +5,7 @@
  - Eugene Lobkoff
  - Carlos Avilla
  - Zhuldyz Ilyassova
- - Alex Kirillov
+ - :sunglasses:Alex Kirillov:sunglasses:
 
 
 ## Description
