@@ -1,4 +1,4 @@
-package com.teamH.assingment3;
+package com.teamH.assignment3;
 
 import android.content.Context;
 
