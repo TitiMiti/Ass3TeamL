@@ -9,7 +9,7 @@
 
 
 ## Description
- A simple profile app to highlight each team member throug his own profile page. 
+ A simple profile app to highlight each team member through his own profile page. 
 
 #### APK version : 30
 
