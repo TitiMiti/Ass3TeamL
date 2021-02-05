@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Ass3TeamL</string>
+    <string name="app_name">Assingment3</string>
     <string name="title_activity_alex">Alex Kirillov</string>
     <string name="app_logo_label">Team H</string>
     <string name="button_1">Take Your Button</string>

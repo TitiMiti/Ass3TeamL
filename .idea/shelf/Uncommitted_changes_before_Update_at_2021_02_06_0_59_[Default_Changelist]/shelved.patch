@@ -1,0 +1,154 @@
+Index: app/src/main/java/com/example/ass3/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.ass3;\n\nimport androidx.appcompat.app.AppCompatActivity;\n\nimport android.os.Bundle;\n\npublic class MainActivity extends AppCompatActivity {\n\n    @Override\n    protected void onCreate(Bundle savedInstanceState) {\n        super.onCreate(savedInstanceState);\n        setContentView(R.layout.activity_main);\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/ass3/MainActivity.java	(revision 703017c76b76da292b25c3ef7f7242e9b52569cd)
++++ app/src/main/java/com/example/ass3/MainActivity.java	(date 1612553229000)
+@@ -2,13 +2,22 @@
+ 
+ import androidx.appcompat.app.AppCompatActivity;
+ 
++import android.content.Intent;
+ import android.os.Bundle;
++import android.util.Log;
++import android.view.View;
+ 
+ public class MainActivity extends AppCompatActivity {
+ 
++    private static final String LOG_TAG = MainActivity.class.getSimpleName();
++
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.activity_main);
+     }
++
++    public void launchPersonalPageActivity(View view){
++        Log.d(LOG_TAG, "clicked");
++    }
+ }
+\ No newline at end of file
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<resources>\n    <string name=\"app_logo_label\">Team H</string>\n    <string name=\"button_1\">Take Your Button</string>\n    <string name=\"button_2\">Mr.Alex</string>\n    <string name=\"button_3\">Take Your Button</string>\n    <string name=\"button_4\">Take Your Button</string>\n    <string name=\"bottom_label\">Lab 3 team profile assignment for COMP2160</string>\n</resources>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision 703017c76b76da292b25c3ef7f7242e9b52569cd)
++++ app/src/main/res/values/strings.xml	(date 1612554032000)
+@@ -1,5 +1,7 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <resources>
++    <string name="app_name">Ass3TeamL</string>
++    <string name="title_activity_alex">Alex Kirillov</string>
+     <string name="app_logo_label">Team H</string>
+     <string name="button_1">Take Your Button</string>
+     <string name="button_2">Mr.Alex</string>
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\n    package=\"com.example.ass3\">\n\n    <uses-permission android:name=\"android.permission.WAKE_LOCK\" />\n\n    <uses-feature android:name=\"android.hardware.type.watch\" />\n\n    <application\n        android:allowBackup=\"true\"\n        android:icon=\"@mipmap/ic_launcher\"\n        android:label=\"@string/app_name\"\n        android:roundIcon=\"@mipmap/ic_launcher_round\"\n        android:supportsRtl=\"true\"\n        android:theme=\"@style/AppTheme\">\n        <uses-library\n            android:name=\"com.google.android.wearable\"\n            android:required=\"true\" />\n\n        <!--\n               Set to true if your app is Standalone, that is, it does not require the handheld\n               app to run.\n        -->\n        <meta-data\n            android:name=\"com.google.android.wearable.standalone\"\n            android:value=\"true\" />\n\n        <activity\n            android:name=\".MainActivity2\"\n            android:label=\"@string/title_activity_main2\">\n            <intent-filter>\n                <action android:name=\"android.intent.action.MAIN\" />\n\n                <category android:name=\"android.intent.category.LAUNCHER\" />\n            </intent-filter>\n        </activity>\n        <activity android:name=\".MainActivity\">\n            <intent-filter>\n                <action android:name=\"android.intent.action.MAIN\" />\n\n                <category android:name=\"android.intent.category.LAUNCHER\" />\n            </intent-filter>\n        </activity>\n    </application>\n\n</manifest>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/AndroidManifest.xml	(revision 703017c76b76da292b25c3ef7f7242e9b52569cd)
++++ app/src/main/AndroidManifest.xml	(date 1612554032000)
+@@ -13,10 +13,19 @@
+         android:roundIcon="@mipmap/ic_launcher_round"
+         android:supportsRtl="true"
+         android:theme="@style/AppTheme">
++        <activity
++            android:name=".AlexActivity"
++            android:label="@string/title_activity_alex">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++
++                <category android:name="android.intent.category.LAUNCHER" />
++            </intent-filter>
++        </activity>
++
+         <uses-library
+             android:name="com.google.android.wearable"
+             android:required="true" />
+-
+         <!--
+                Set to true if your app is Standalone, that is, it does not require the handheld
+                app to run.
+@@ -25,15 +34,6 @@
+             android:name="com.google.android.wearable.standalone"
+             android:value="true" />
+ 
+-        <activity
+-            android:name=".MainActivity2"
+-            android:label="@string/title_activity_main2">
+-            <intent-filter>
+-                <action android:name="android.intent.action.MAIN" />
+-
+-                <category android:name="android.intent.category.LAUNCHER" />
+-            </intent-filter>
+-        </activity>
+         <activity android:name=".MainActivity">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n    xmlns:tools=\"http://schemas.android.com/tools\"\n    android:layout_width=\"match_parent\"\n    android:layout_height=\"match_parent\"\n    android:background=\"#9EFBDA\"\n    tools:context=\".MainActivity\">\n\n    <TextView\n        android:id=\"@+id/textView\"\n        android:layout_width=\"0dp\"\n        android:layout_height=\"wrap_content\"\n        android:background=\"#000000\"\n        android:gravity=\"center\"\n        android:text=\"@string/app_logo_label\"\n        android:textColor=\"#FFFFFF\"\n        android:textSize=\"24sp\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toTopOf=\"parent\" />\n\n    <LinearLayout\n        android:layout_width=\"254dp\"\n        android:layout_height=\"289dp\"\n        android:orientation=\"vertical\"\n        android:padding=\"10sp\"\n        app:layout_constraintBottom_toBottomOf=\"parent\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintHorizontal_bias=\"0.497\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toBottomOf=\"@+id/textView\"\n        app:layout_constraintVertical_bias=\"0.508\">\n\n        <Button\n            android:id=\"@+id/button2\"\n            android:layout_width=\"match_parent\"\n            android:layout_height=\"wrap_content\"\n            android:layout_margin=\"10sp\"\n            android:text=\"@string/button_1\" />\n\n        <Button\n            android:id=\"@+id/button3\"\n            android:layout_width=\"match_parent\"\n            android:layout_height=\"wrap_content\"\n            android:layout_margin=\"10sp\"\n            android:text=\"@string/button_2\" />\n\n        <Button\n            android:id=\"@+id/button4\"\n            android:layout_width=\"match_parent\"\n            android:layout_height=\"wrap_content\"\n            android:layout_margin=\"10sp\"\n            android:text=\"@string/button_3\" />\n\n        <Button\n            android:id=\"@+id/button5\"\n            android:layout_width=\"match_parent\"\n            android:layout_height=\"wrap_content\"\n            android:layout_margin=\"10sp\"\n            android:text=\"@string/button_4\" />\n    </LinearLayout>\n\n    <TextView\n        android:id=\"@+id/bottom_label\"\n        android:layout_width=\"0dp\"\n        android:layout_height=\"wrap_content\"\n        android:background=\"#5900FF0A\"\n        android:clickable=\"false\"\n        android:paddingStart=\"0sp\"\n        android:paddingEnd=\"5sp\"\n        android:text=\"@string/bottom_label\"\n        android:textAlignment=\"viewEnd\"\n        android:textColor=\"#000000\"\n        android:textSize=\"14sp\"\n        android:textStyle=\"bold\"\n        app:layout_constraintBottom_toBottomOf=\"parent\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintHorizontal_bias=\"0.524\"\n        app:layout_constraintStart_toStartOf=\"parent\" />\n\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(revision 703017c76b76da292b25c3ef7f7242e9b52569cd)
++++ app/src/main/res/layout/activity_main.xml	(date 1612553378000)
+@@ -44,6 +44,7 @@
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="10sp"
++            android:onClick="launchPersonalPageActivity"
+             android:text="@string/button_2" />
+ 
+         <Button
+Index: app/src/main/res/layout/activity_main2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main2.xml	(date 1612554032000)
++++ app/src/main/res/layout/activity_main2.xml	(date 1612554032000)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".AlexActivity">
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/example/ass3/AlexActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/ass3/AlexActivity.java	(date 1612554032000)
++++ app/src/main/java/com/example/ass3/AlexActivity.java	(date 1612554032000)
+@@ -0,0 +1,14 @@
++package com.example.ass3;
++
++import androidx.appcompat.app.AppCompatActivity;
++
++import android.os.Bundle;
++
++public class AlexActivity extends AppCompatActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_main2);
++    }
++}
+\ No newline at end of file

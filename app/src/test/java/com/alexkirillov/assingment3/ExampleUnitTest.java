@@ -1,4 +1,4 @@
-package com.example.ass3;
+package com.alexkirillov.assingment3;
 
 import org.junit.Test;
 
