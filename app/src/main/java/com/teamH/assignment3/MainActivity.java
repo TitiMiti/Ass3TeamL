@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         String alex_activity_key = getString(R.string.button_2);
 
         if(button_text.equals(alex_activity_key)){
-            Log.d(LOG_TAG, "clicked");
             startActivity(intent_alex_activity);
         }
     }
