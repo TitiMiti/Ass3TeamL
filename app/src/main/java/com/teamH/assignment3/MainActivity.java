@@ -15,11 +15,14 @@ public class MainActivity extends AppCompatActivity {
     //Intent to launch Alex activity
     private Intent intent_alex_activity;
 
+    private Intent intent_zhuldyz_activity;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         intent_alex_activity = new Intent(this, AlexActivity.class);
+        intent_zhuldyz_activity = new Intent(this, ZhuldyzActivity.class);
     }
 
     //Listener for buttons, onClick checks which button was activated
@@ -29,9 +32,16 @@ public class MainActivity extends AppCompatActivity {
         Button button = (Button) view;
         CharSequence button_text = button.getText().toString();
         String alex_activity_key = getString(R.string.button_2);
+        String zhuldyz_activity = getString(R.string.zhuldyz);
 
-        if(button_text.equals(alex_activity_key)){
+        if(button_text.equals(alex_activity_key)) {
             startActivity(intent_alex_activity);
         }
+
+        if(button_text.equals(zhuldyz_activity)) {
+            startActivity(intent_zhuldyz_activity);
+        }
+
     }
+
 }
