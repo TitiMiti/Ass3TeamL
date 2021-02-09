@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Intent intent_eugene_activity;
 
+    private Intent intent_carlos_activity;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         intent_alex_activity = new Intent(this, AlexActivity.class);
         intent_zhuldyz_activity = new Intent(this, ZhuldyzActivity.class);
         intent_eugene_activity = new Intent(this, EugeneActivity.class);
+        intent_carlos_activity = new Intent(this, CarlosActivity.class);
     }
 
     //Listener for buttons, onClick checks which button was activated
@@ -38,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         String alex_activity_key = getString(R.string.button_2);
         String zhuldyz_activity = getString(R.string.zhuldyz);
         String eugene_activity = getString(R.string.button_1);
+        String carlos_activity = getString(R.string.Carlos_Activity);
 
         if(button_text.equals(alex_activity_key)) {
             startActivity(intent_alex_activity);
@@ -49,6 +53,11 @@ public class MainActivity extends AppCompatActivity {
 
         if(button_text.equals(eugene_activity)) {
             startActivity(intent_eugene_activity);
+        }
+
+        if (button_text.equals(carlos_activity)) {
+            startActivity(intent_carlos_activity);
+
         }
     }
 
