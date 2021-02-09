@@ -12,17 +12,21 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
 
-    //Intent to launch Alex activity
+    //Intent to launch activities
     private Intent intent_alex_activity;
 
     private Intent intent_zhuldyz_activity;
+
+    private Intent intent_eugene_activity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        try { this.getSupportActionBar().hide(); } catch (NullPointerException e){}
         intent_alex_activity = new Intent(this, AlexActivity.class);
         intent_zhuldyz_activity = new Intent(this, ZhuldyzActivity.class);
+        intent_eugene_activity = new Intent(this, EugeneActivity.class);
     }
 
     //Listener for buttons, onClick checks which button was activated
@@ -33,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         CharSequence button_text = button.getText().toString();
         String alex_activity_key = getString(R.string.button_2);
         String zhuldyz_activity = getString(R.string.zhuldyz);
+        String eugene_activity = getString(R.string.button_1);
 
         if(button_text.equals(alex_activity_key)) {
             startActivity(intent_alex_activity);
@@ -42,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent_zhuldyz_activity);
         }
 
+        if(button_text.equals(eugene_activity)) {
+            startActivity(intent_eugene_activity);
+        }
     }
 
 }

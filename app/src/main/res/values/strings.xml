@@ -2,13 +2,15 @@
     <string name="app_name">Assingment3</string>
     <string name="title_activity_alex">Alex Kirillov</string>
     <string name="app_logo_label">Team H</string>
-    <string name="button_1">Take Your Button</string>
+    <string name="button_1">Eugene\'s world</string>
     <string name="button_2">Mr.Alex</string>
     <string name="button_3">Take Your Button</string>
     <string name="button_4">Take Your Button</string>
     <string name="bottom_label">Lab 3 team profile assignment for COMP2160</string>
     <string name="background_top_image">TODO</string>
+
     <string name="alex_activity_main_label">YES</string>
+
     <string name="zhuldyz">Zhuldyz</string>
     <string name="this_is_zhuldyz_s_page">This is Zhuldyz\'s page</string>
     <string name="zhuldyz_page">Zhuldyz page</string>
