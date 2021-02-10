@@ -14,9 +14,9 @@
         android:layout_height="29dp"
         android:contentDescription="@string/dot_1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintEnd_toStartOf="@+id/hobbyFour"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/hobbyThree"
         app:srcCompat="@drawable/dot_png4" />
 
     <ImageView
@@ -25,9 +25,9 @@
         android:layout_height="29dp"
         android:contentDescription="@string/dot_2"
         app:layout_constraintBottom_toTopOf="@+id/imageView16"
-        app:layout_constraintEnd_toStartOf="@+id/textView10"
+        app:layout_constraintEnd_toStartOf="@+id/hobbyThree"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/hobbyTwo"
         app:srcCompat="@drawable/dot_png4" />
 
     <ImageView
@@ -36,13 +36,13 @@
         android:layout_height="29dp"
         android:contentDescription="@string/dot_3"
         app:layout_constraintBottom_toTopOf="@+id/imageView15"
-        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintEnd_toStartOf="@+id/hobbyTwo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hobbies_dc"
+        app:layout_constraintTop_toBottomOf="@+id/hobbyOne"
         app:srcCompat="@drawable/dot_png4" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/hobbyFour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hobby_3"
@@ -51,11 +51,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.391"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hobbies_dc"
+        app:layout_constraintTop_toBottomOf="@+id/hobbyOne"
         app:layout_constraintVertical_bias="0.773" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/hobbyThree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hobby_4"
@@ -64,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hobbies_dc"
+        app:layout_constraintTop_toBottomOf="@+id/hobbyOne"
         app:layout_constraintVertical_bias="0.452" />
 
     <ImageView
@@ -201,7 +201,7 @@
         app:layout_constraintVertical_bias="0.044" />
 
     <TextView
-        android:id="@+id/hobbies_dc"
+        android:id="@+id/hobbyOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hobby_1"
@@ -214,7 +214,7 @@
         app:layout_constraintVertical_bias="0.123" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/hobbyTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hobby_2"
@@ -223,7 +223,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.218"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hobbies_dc"
+        app:layout_constraintTop_toBottomOf="@+id/hobbyOne"
         app:layout_constraintVertical_bias="0.139" />
 
     <ImageView
@@ -245,7 +245,7 @@
         android:layout_width="49dp"
         android:layout_height="38dp"
         android:contentDescription="@string/image_emoji"
-        app:layout_constraintBottom_toTopOf="@+id/hobbies_dc"
+        app:layout_constraintBottom_toTopOf="@+id/hobbyOne"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.268"
         app:layout_constraintStart_toEndOf="@+id/hobbies"
@@ -259,7 +259,7 @@
         android:layout_height="29dp"
         android:contentDescription="@string/dot_4"
         app:layout_constraintBottom_toTopOf="@+id/imageView14"
-        app:layout_constraintEnd_toStartOf="@+id/hobbies_dc"
+        app:layout_constraintEnd_toStartOf="@+id/hobbyOne"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hobbies"
         app:srcCompat="@drawable/dot_png4" />

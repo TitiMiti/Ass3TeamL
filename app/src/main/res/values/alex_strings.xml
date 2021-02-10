@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="alex_hobby_3">Shrek 2</string>
-    <string name="alex_hobby_2">Monke Language</string>
-    <string name="alex_hobby_1">Monke Development</string>
-    <string name="alex_hobby_4">Monke Sports</string>
+    <string name="alex_hobby_3">Full-Stack Development, Algorithms, and Data Structures</string>
+    <string name="alex_hobby_2">Studying Languages</string>
+    <string name="alex_hobby_1">Cooking</string>
+    <string name="alex_hobby_4">Calligraphy</string>
     <string name="alex_name">Alex Kirillov</string>
     <string name="alex_email">email: kirillova19@mytru.ca</string>
-    <string name="alex_education_dc">Monke University</string>
+    <string name="alex_education_dc">Currently pursuing Bachelor of Science with major in Computing Science at Thompson Rivers University.  Expected graduation year is 2023.</string>
 </resources>
