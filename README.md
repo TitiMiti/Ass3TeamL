@@ -17,10 +17,20 @@
    
    - Main Activity
    
+   ![main_page_screenshot]()
+   
    - Eugene's Page
    
+   ![eugene_page_screenshot]()
+ 
    - Carlos' Page
+   
+   ![carlos_page_screenshot](https://github.com/TitiMiti/Ass3TeamL/blob/master/screenshots/Screenshot%202021-02-11%20at%200.39.25.png)
    
    - Zhuldyz's Page
    
+   ![zhuldyz_page_screenshot](https://github.com/TitiMiti/Ass3TeamL/blob/master/screenshots/Screenshot%202021-02-11%20at%200.39.07.png)
+   
    - Alex's Page
+   
+   ![alex_page_screenshot](https://github.com/TitiMiti/Ass3TeamL/blob/master/screenshots/Screenshot%202021-02-11%20at%200.38.54.png)
