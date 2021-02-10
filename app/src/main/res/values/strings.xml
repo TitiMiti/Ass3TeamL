@@ -25,4 +25,11 @@
     <string name="number_dc">number: +1-234-456-7890</string>
     <string name="email_img">email_img</string>
     <string name="phone_img">phone_img</string>
+    <string name="my_education">My education</string>
+    <string name="education_dc">I am pursuing Bachelor of Computing Science at Thompson Rivers University Minoring in Mathematics. My expected year of graduation is 2023.</string>
+    <string name="my_hobbies">My Hobbies</string>
+    <string name="hobby_1">Designing and development websites</string>
+    <string name="hobby_2">Learning a new skill</string>
+    <string name="hobby_3">Listening to music and watching movies</string>
+    <string name="hobby_4">Keeping up with the latest developments in technology</string>
 </resources>
