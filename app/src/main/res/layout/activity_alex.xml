@@ -130,7 +130,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/userIcon"
         android:layout_width="132dp"
         android:layout_height="222dp"
         android:contentDescription="@string/zhuldyz_image"
@@ -140,7 +140,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/image_bg"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/monkeyface" />
+        app:srcCompat="@drawable/alex_icon" />
 
     <TextView
         android:id="@+id/name_dp"
@@ -167,7 +167,7 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+        app:layout_constraintTop_toBottomOf="@+id/userIcon" />
 
     <TextView
         android:id="@+id/number"
