@@ -18,4 +18,11 @@
     <string name="Carlos_Title">Carlos Avila</string>
     <string name="Carlos_Activity">Charlie Boy</string>
     <string name="Carlos_imgDesc">Akali</string>
+    <string name="study_bg">study_bg</string>
+    <string name="zhuldyz_image">zhuldyz_image</string>
+    <string name="name">Zhuldyz Ilyassova</string>
+    <string name="email_dc">email: ilyassovaz19@mytru.ca</string>
+    <string name="number_dc">number: +1-234-456-7890</string>
+    <string name="email_img">email_img</string>
+    <string name="phone_img">phone_img</string>
 </resources>
