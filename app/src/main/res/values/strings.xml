@@ -16,7 +16,7 @@
     <string name="zhuldyz_page">Zhuldyz page</string>
     <string name="me">me</string>
     <string name="Carlos_Title">Carlos Avila</string>
-    <string name="Carlos_Activity">Charlie Boy</string>
+    <string name="Carlos_Activity">Carlos Avila</string>
     <string name="Carlos_imgDesc">Akali</string>
     <string name="study_bg">study_bg</string>
     <string name="zhuldyz_image">zhuldyz_image</string>
@@ -44,4 +44,12 @@
     <string name="Carlos_photoDescription3">phone_img</string>
     <string name="Carlos_phoneNumber">+1 (778) 6948-953</string>
     <string name="Carlos_Bg1">Background_img</string>
+    <string name="Carlos_Title2">My Education</string>
+    <string name="Carlos_Title3">Hobbies</string>
+    <string name="Carlos_Image4">Education_img</string>
+    <string name="Carlos_Image5">Controller_img</string>
+    <string name="Carlos_Text2">Playing Videogames</string>
+    <string name="Carlos_Text3">Game Developing</string>
+    <string name="Carlos_Text4">Cooking and Drawing</string>
+    <string name="Carlos_Text1">Pursuing Bachelor of Computer Science, not any Major yet but Minoring in Project Management. Expected graduation year is 2023!</string>
 </resources>
