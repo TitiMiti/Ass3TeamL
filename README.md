@@ -18,19 +18,19 @@
    - Main Activity
    
    ![main_page_screenshot]()
-   
+   <br/>
    - Eugene's Page
    
    ![eugene_page_screenshot]()
- 
+   <br/>
    - Carlos' Page
    
    ![carlos_page_screenshot](https://github.com/TitiMiti/Ass3TeamL/blob/master/screenshots/Screenshot%202021-02-11%20at%200.39.25.png)
-   
+   <br/>
    - Zhuldyz's Page
    
    ![zhuldyz_page_screenshot](https://github.com/TitiMiti/Ass3TeamL/blob/master/screenshots/Screenshot%202021-02-11%20at%200.39.07.png)
-   
+   <br/>
    - Alex's Page
    
-    ![alex_page_screenshot](https://github.com/TitiMiti/Ass3TeamL/blob/master/screenshots/Screenshot%202021-02-11%20at%200.38.54.png)
+   ![alex_page_screenshot](https://github.com/TitiMiti/Ass3TeamL/blob/master/screenshots/Screenshot%202021-02-11%20at%200.38.54.png)
