@@ -34,7 +34,7 @@
         android:id="@+id/imageView14"
         android:layout_width="39dp"
         android:layout_height="29dp"
-        android:contentDescription="dot_3"
+        android:contentDescription="@string/dot_3"
         app:layout_constraintBottom_toTopOf="@+id/imageView15"
         app:layout_constraintEnd_toStartOf="@+id/textView9"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alex_hobby_3">Shrek 2</string>
+    <string name="alex_hobby_2">Monke Language</string>
+    <string name="alex_hobby_1">Monke Development</string>
+    <string name="alex_hobby_4">Monke Sports</string>
+    <string name="alex_name">Alex Kirillov</string>
+    <string name="alex_email">email: kirillova19@mytru.ca</string>
+    <string name="alex_education_dc">Monke University</string>
+</resources>
