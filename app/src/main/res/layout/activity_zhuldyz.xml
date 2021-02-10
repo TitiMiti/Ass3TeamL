@@ -8,6 +8,39 @@
     android:background="@drawable/gradient_bg"
     >
 
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="39dp"
+        android:layout_height="29dp"
+        android:contentDescription="@string/dot_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/dot_png4" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="39dp"
+        android:layout_height="29dp"
+        android:contentDescription="@string/dot_2"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toStartOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/dot_png4" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="39dp"
+        android:layout_height="29dp"
+        android:contentDescription="dot_3"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hobbies_dc"
+        app:srcCompat="@drawable/dot_png4" />
+
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
@@ -128,21 +161,6 @@
         app:srcCompat="@drawable/_2971_200" />
 
     <TextView
-        android:id="@+id/text_dc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/my_education"
-        android:textColor="@color/black"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_bg"
-        app:layout_constraintVertical_bias="0.105" />
-
-    <TextView
         android:id="@+id/education_dc"
         android:layout_width="408dp"
         android:layout_height="52dp"
@@ -207,5 +225,58 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hobbies_dc"
         app:layout_constraintVertical_bias="0.139" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="48dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="@string/image_ed"
+        app:layout_constraintBottom_toTopOf="@+id/education_dc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toEndOf="@+id/text_dc"
+        app:layout_constraintTop_toBottomOf="@+id/image_bg"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/graduation_cap_clipart_collection_10" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="49dp"
+        android:layout_height="38dp"
+        android:contentDescription="@string/image_emoji"
+        app:layout_constraintBottom_toTopOf="@+id/hobbies_dc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toEndOf="@+id/hobbies"
+        app:layout_constraintTop_toBottomOf="@+id/education_dc"
+        app:layout_constraintVertical_bias="0.634"
+        app:srcCompat="@drawable/_c433b4f99596168669faf0c" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="39dp"
+        android:layout_height="29dp"
+        android:contentDescription="@string/dot_4"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toStartOf="@+id/hobbies_dc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hobbies"
+        app:srcCompat="@drawable/dot_png4" />
+
+    <TextView
+        android:id="@+id/text_dc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_education"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_bg"
+        app:layout_constraintVertical_bias="0.108" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -32,4 +32,9 @@
     <string name="hobby_2">Learning a new skill</string>
     <string name="hobby_3">Listening to music and watching movies</string>
     <string name="hobby_4">Keeping up with the latest developments in technology</string>
+    <string name="image_ed">image_ed</string>
+    <string name="dot_2">dot_2</string>
+    <string name="dot_1">dot_1</string>
+    <string name="image_emoji">image_emoji</string>
+    <string name="dot_4">dot_4</string>
 </resources>
