@@ -118,14 +118,14 @@
 
     <ImageView
         android:id="@+id/Carlos_Image1"
-        android:layout_width="189dp"
-        android:layout_height="166dp"
+        android:layout_width="179dp"
+        android:layout_height="157dp"
         android:layout_marginTop="28dp"
         android:contentDescription="@string/Carlos_imgDesc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/akali" />
+        app:srcCompat="@drawable/carlos_photo" />
 
     <TextView
         android:id="@+id/Carlos_editTextEmail"
