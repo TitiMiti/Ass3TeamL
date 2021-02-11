@@ -26,7 +26,7 @@
    <br/>
    
   ### - Carlos' Page
-   <img src="https://github.com/TitiMiti/Ass3TeamL/blob/master/screenshots/Screenshot%202021-02-11%20at%200.39.25.png" width="500px" height="1000px"/>
+   <img src="https://github.com/TitiMiti/Ass3TeamL/blob/master/screenshots/Carlos_Screenshot.png" width="500px" height="1000px"/>
    <br/>
    
   ### - Zhuldyz's Page
