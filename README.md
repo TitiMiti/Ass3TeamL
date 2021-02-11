@@ -17,12 +17,12 @@
    
   ### - Main Activity
    
-   ![main_page_screenshot]()
+   <img src="https://imgur.com/a/01avcHx"/>
    <br/>
    
   ### - Eugene's Page
    
-   ![eugene_page_screenshot]()
+   <img src="https://imgur.com/a/FGJSqZn"/>
    <br/>
    
   ### - Carlos' Page
