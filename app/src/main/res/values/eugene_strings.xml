@@ -4,9 +4,10 @@
     <string name="eugene_phone_dc">+ 1 236 565 66 14</string>
     <string name="eugene_email_dc">ikhozhaynov@mail.ru</string>
     <string name="eugene_hobby_1">Visual Arts</string>
-    <string name="eugene_hobby_2">Sleeping(Yes, I counted it as a hobby)</string>
-    <string name="eugene_hobby_3">Humanitarian Arts</string>
+    <string name="eugene_hobby_2">Sleeping(Yes, its is a hobby)</string>
+    <string name="eugene_hobby_3">Technologies</string>
     <string name="eugene_hobby_4">Videogames</string>
     <string name="eugene_education_dc">My university is TRU and the rest of my knowledge I get from the World Wide Web.</string>
     <string name="hobby_image_eugene">thinking_emoji</string>
+    <string name="eugene_avatar_description">Face of a Young Male</string>
 </resources>

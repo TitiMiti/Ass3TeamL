@@ -24,7 +24,7 @@
         android:id="@+id/phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:text="@string/eugene_phone_dc"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
@@ -50,7 +50,7 @@
         android:id="@+id/phone_img2"
         android:layout_width="38dp"
         android:layout_height="39dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="24dp"
         android:contentDescription="@string/phone_img"
         app:layout_constraintBottom_toBottomOf="@+id/image_bg"
@@ -71,11 +71,12 @@
         app:layout_constraintBottom_toBottomOf="@+id/image_bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/avatar"
         app:layout_constraintVertical_bias="0.555" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/avatar"
+        android:contentDescription="@string/eugene_avatar_description"
         android:layout_width="132dp"
         android:layout_height="132dp"
         android:layout_marginTop="60dp"
@@ -175,11 +176,11 @@
         android:id="@+id/hobby1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="16dp"
         android:text="@string/eugene_hobby_1"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintHorizontal_bias="0.259"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hobbies2" />
 
@@ -187,11 +188,11 @@
         android:id="@+id/hobby2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="14dp"
         android:text="@string/eugene_hobby_2"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.694"
+        app:layout_constraintHorizontal_bias="0.377"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hobby1" />
 
@@ -199,11 +200,11 @@
         android:id="@+id/hobby3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="14dp"
         android:text="@string/eugene_hobby_3"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintHorizontal_bias="0.271"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hobby2" />
 
@@ -211,11 +212,11 @@
         android:id="@+id/hobby4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="14dp"
         android:text="@string/eugene_hobby_4"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintHorizontal_bias="0.268"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hobby3" />
 
