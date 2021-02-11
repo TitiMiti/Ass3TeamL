@@ -1,6 +1,266 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".EugeneActivity">
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/eugene_email_dc"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_dp2" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/eugene_phone_dc"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email2" />
+
+    <ImageView
+        android:id="@+id/email_img2"
+        android:layout_width="40dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/email_img"
+        app:layout_constraintBottom_toBottomOf="@+id/image_bg"
+        app:layout_constraintEnd_toStartOf="@+id/email2"
+        app:layout_constraintTop_toBottomOf="@+id/name_dp2"
+        app:layout_constraintVertical_bias="0.693"
+        app:srcCompat="@drawable/bb18bdbbef437b2d50518db5a8292c94" />
+
+    <ImageView
+        android:id="@+id/phone_img2"
+        android:layout_width="38dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="@string/phone_img"
+        app:layout_constraintBottom_toBottomOf="@+id/image_bg"
+        app:layout_constraintEnd_toStartOf="@+id/phone"
+        app:layout_constraintTop_toBottomOf="@+id/email_img2"
+        app:layout_constraintVertical_bias="0.213"
+        app:srcCompat="@drawable/_2971_200" />
+
+    <TextView
+        android:id="@+id/name_dp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/eugene_name_dc"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/image_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="132dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/eugene_profile_pic" />
+
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="357dp"
+        android:background="#ff000000"
+        android:scrollbars="horizontal"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/education_dc3"
+        android:layout_width="346dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/eugene_education_dc"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_dc2" />
+
+    <ImageView
+        android:id="@+id/MyEducationImage"
+        android:layout_width="48dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/image_ed"
+        app:layout_constraintStart_toEndOf="@+id/text_dc2"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/graduation_cap_clipart_collection_10" />
+
+    <TextView
+        android:id="@+id/text_dc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/my_education"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="24dp"
+        android:background="#ff000000"
+        android:scrollbars="horizontal"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/education_dc3" />
+
+    <TextView
+        android:id="@+id/hobbies2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/my_hobbies"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider4" />
+
+    <ImageView
+        android:id="@+id/MyHobbiesImage"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/hobby_image_eugene"
+        app:layout_constraintStart_toEndOf="@+id/hobbies2"
+        app:layout_constraintTop_toBottomOf="@+id/divider4"
+        app:srcCompat="@drawable/thinking_face_emoji" />
+
+    <TextView
+        android:id="@+id/hobby1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/eugene_hobby_1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hobbies2" />
+
+    <TextView
+        android:id="@+id/hobby2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/eugene_hobby_2"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.694"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hobby1" />
+
+    <TextView
+        android:id="@+id/hobby3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/eugene_hobby_3"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hobby2" />
+
+    <TextView
+        android:id="@+id/hobby4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/eugene_hobby_4"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hobby3" />
+
+    <ImageView
+        android:id="@+id/BulletListImage1"
+        android:layout_width="39dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/dot_4"
+        app:layout_constraintEnd_toStartOf="@+id/hobby1"
+        app:layout_constraintTop_toBottomOf="@+id/hobbies2"
+        app:srcCompat="@drawable/dot_png4" />
+
+    <ImageView
+        android:id="@+id/bulletListImage2"
+        android:layout_width="39dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/dot_4"
+        app:layout_constraintEnd_toStartOf="@+id/hobby2"
+        app:layout_constraintTop_toBottomOf="@+id/BulletListImage1"
+        app:srcCompat="@drawable/dot_png4" />
+
+    <ImageView
+        android:id="@+id/bulletListImage3"
+        android:layout_width="39dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/dot_4"
+        app:layout_constraintEnd_toStartOf="@+id/hobby3"
+        app:layout_constraintTop_toBottomOf="@+id/bulletListImage2"
+        app:srcCompat="@drawable/dot_png4" />
+
+    <ImageView
+        android:id="@+id/bulletListImage4"
+        android:layout_width="39dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/dot_4"
+        app:layout_constraintEnd_toStartOf="@+id/hobby4"
+        app:layout_constraintTop_toBottomOf="@+id/bulletListImage3"
+        app:srcCompat="@drawable/dot_png4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
