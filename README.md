@@ -22,7 +22,7 @@
 
   ### - Eugene's Page
    
-   <img src="https://github.com/TitiMiti/Ass3TeamL/blob/master/screenshots/Screenshot%202021-02-11%20at%7.22.23.png" width="500px" height="1000px"/>
+   <img src="https://github.com/TitiMiti/Ass3TeamL/blob/master/screenshots/Screen%20Shot%202021-02-10%20at%207.22.23%20PM.jpg" width="500px" height="1000px"/>
    <br/>
    
   ### - Carlos' Page
