@@ -17,12 +17,12 @@
    
   ### - Main Activity
    
-   <img src="https://imgur.com/a/01avcHx"/>
+   img src="https://github.com/TitiMiti/Ass3TeamL/blob/master/screenshots/Screenshot%202021-02-11%20at%7.22.21.png" width="500px" height="1000px"/>
    <br/>
-   
+
   ### - Eugene's Page
    
-   <img src="https://imgur.com/a/FGJSqZn"/>
+img src="https://github.com/TitiMiti/Ass3TeamL/blob/master/screenshots/Screenshot%202021-02-11%20at%7.22.23.png" width="500px" height="1000px"/>
    <br/>
    
   ### - Carlos' Page
